@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+height:100%;
+width: 124%;
+background-image: url("background1.jpg");
+background-position: center;
+background-size: contain;
+position: absolute;
+}
+
+.formbox{
+width: 380px;
+height: 480px;
+left: 380px;
+position: relative;
+margin: 6% auto;
+background: rgba(255, 255, 255, 0.804);
+padding: 5px;
+overflow: hidden;
+border-radius: 20px;
+}
+
+.buttonbox{
+    width: -23px;
+    height: 37px;
+    margin: 35px;
+    position: relative;
+    box-shadow: rgb(154, 114, 114);
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    
+    padding: 10px 50px;
+    cursor: pointer;
+    background: transparent;
+    border:0;
+    position: relative;
+    outline:none;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background:linear-gradient(to right,#ff105f,#ffad0f) ;
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+    transition: .5s;
+}
+ 
+.inputdata{
+    top:180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.inputfield{
+    width: 90%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid;
+    outline: none;
+    background:transparent ;
+}
+
+.checkbox{
+    margin: 13px 18px 34px;
+}
+
+span{
+    color: rgb(119, 119, 119);
+    font-size: 12px;
+    bottom: 143px;
+    position: absolute;
+}
+
+.submitbtn{
+    width: 200px;
+    height: 35px;
+    margin: 10px 50px;
+    background:linear-gradient(to right,#ff105f,#ffad0f) ;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+#Login{
+    left: 45px;
+}
+
+#Register{
+    left: 100%;
+}
+
+
+
